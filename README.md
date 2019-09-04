@@ -3,7 +3,7 @@ HMI Font Pack
 
 ![Font Preview][preview]
 
-[preview]: "HMI KoHo-Regular 28 (WINDOWS_874).png" "Font Preview"
+[preview]: "https://github.com/fvanroie/HMI-Font-Pack/blob/v0.0.2/HMI%20KoHo-Regular%2028%20(WINDOWS_874).png" "Font Preview"
 
 About
 -----
