@@ -1,6 +1,9 @@
 HMI Font Pack
 =============
 
+![Font Preview][preview]
+
+[preview]: "HMI KoHo-Regular 28 (WINDOWS_874).png" "Font Preview"
 
 About
 -----
@@ -10,20 +13,21 @@ The Nextion Editor and TJC USART Editor use a propriatary .zi font format.
 Now you can add a wide selection of quality fonts to your project in seconds.
 
 In the font pack there are dozens of fonts for each supported language (codepage) in different fontsizes.
-Only Regular styles are included in this release.
+Only Regular styles are included in the current release.
 
-The .zi files are version 5 and support anti-aliasing and varable width fonts. Version 0.55 or higher of the Nextion / USART HMI Editor is needed to use these font files.
+The .zi files are version 5 and support anti-aliasing and variable width fonts. Version 0.55 or higher of the Nextion / USART HMI Editor is needed to use these font files.
 
 
 Open Source Fonts
 -----------------
 
-The source fonts used to create the HMI font files, include:
+The Open Source fonts used to create the HMI Font Pack include:
 
-- Most of the fonts are from the Google Fonts project: https://github.com/google/fonts
-- Additional Noto CJK fonts are from: https://github.com/googlefonts/noto-cjk
+- Most of the fonts are from the general Google Fonts project: https://github.com/google/fonts
+- Chinese, Japanese and Korean Noto fonts are from: https://github.com/googlefonts/noto-cjk
+- Unicode Noto fonts are created using individual fonts from: https://github.com/googlefonts/noto-fonts
 
-Additional OFL fonts can be included upon request.
+More OFL fonts can be included upon request.
 
 
 Version History
@@ -32,25 +36,26 @@ Version History
 | Date       | Version | Description
 |:----------:|:-------:|----------------
 | 2019-08-19 |  0.0.1  | Initial Release
+| 2019-09-05 |  0.0.2  | - Fixed bug that could crash the Editor when the HMI layout is rotated 90°, 180° or 270°.<br>- Added two Unicode UTF-8 fonts.<br>- Each .zi file now also has an accompanying .png preview image.
 
 
 License
 -------
 
-Most of the fonts in the HMI Font Pack use the SIL Open Font License, v1.1.
-Some fonts use the Apache 2 license. The Ubuntu fonts use the Ubuntu Font License v1.0.
+Most of the fonts in the HMI Font Pack are distributed under the SIL Open Font License, v1.1.
+Some fonts use the Apache 2 license. The Ubuntu fonts are released under the Ubuntu Font License v1.0.
 The HMI Font Pack files are licensed under the same open license as the source fonts.
 
 The Reserved Font Names are copyrighted by their respective owners.
-Each HMI font is prepended with the text "HMI" to indicate a derived work and has the .zi extension.
-No changes were made to the original .ttf / .otf files.
+Each HMI font is prepended with the text "HMI" to indicate a derived work and it has the .zi file extension.
+No changes were made to the original .ttf or .otf files. Each .zi file basically contains a bitmap render of the original characters.
 
-The archive contains a subfolder per license type:
+The zip archive contains subfolders per license type:
 - OFL : SIL Open Font License, Version 1.1
 - UFL : Ubuntu Font License, Version 1.0
 - Apache2 : Apache License, Version 2.0
 
-The original license files for each source font are retained in each font directory.
+The original license files for each Open Source font are retained in each font directory.
 Carefully read the license file before including the HMI font files into your HMI projects.
 
 
