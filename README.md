@@ -1,9 +1,7 @@
 HMI Font Pack
 =============
 
-![Font Preview][preview]
-
-[preview]: "https://github.com/fvanroie/HMI-Font-Pack/blob/v0.0.2/HMI%20KoHo-Regular%2028%20(WINDOWS_874).png" "Font Preview"
+![Font Preview][https://github.com/fvanroie/HMI-Font-Pack/blob/v0.0.2/HMI%20KoHo-Regular%2028%20(WINDOWS_874).png]
 
 About
 -----
