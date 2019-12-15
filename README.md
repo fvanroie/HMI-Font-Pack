@@ -33,9 +33,13 @@ Version History
 
 | Date       | Version | Description
 |:----------:|:-------:|----------------
-| 2019-08-19 |  0.0.1  | Initial Release
-| 2019-09-05 |  0.0.2  | - Fixed bug that could crash the Editor when the HMI layout is rotated 90°, 180° or 270°.<br>- Added two Unicode UTF-8 fonts.<br>- Each .zi file now also has an accompanying .png preview image.
+| 2019-09-05 |  [0.0.2][2]  | - Fixed bug that could crash the Editor when the HMI layout is rotated 90°, 180° or 270°.<br>- Added two Unicode UTF-8 fonts.<br>- Each .zi file now also has an accompanying .png preview image.
+| 2019-08-19 |  [0.0.1][1]  | Initial Release
 
+Click the versionnumber to go to the Realease download page.
+
+[1]: https://github.com/fvanroie/HMI-Font-Pack/releases/tag/v0.0.1-alpha
+[2]: https://github.com/fvanroie/HMI-Font-Pack/releases/tag/v0.0.2-alpha
 
 License
 -------
